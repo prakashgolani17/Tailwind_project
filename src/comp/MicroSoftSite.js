@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaYoutube, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF } from "react-icons/fa6";
+
 
 
 function MicroSoft() {
@@ -153,16 +156,26 @@ function MicroSoft() {
         {/* last component img with content */}
         <div className='slider tw-flex tw-flex-col-reverse md:tw-bg-[#3b3b3b] md:tw-flex-row tw-justify-between tw-items-center tw-mx-2 xsm:tw-my-12'>
 
-          <div id='microsoft' className='left md:tw-text-white tw-text-black tw-flex tw-flex-col  tw-items-center md:tw-items-baseline tw-my-7 tw-p-10 tw-shadow-lg md:tw-shadow-none xsm:tw-w-[300px] xxsm:tw-w-[200px] tw-mx-5'>
-            <h1 className='tw-text-3xl tw-font-bold '>Designed for life today – and tomorrow</h1>
-            <p className=' my-2  lg:tw-items-baseline'>The next-generation of games. Your goals. Friends and family. Windows 11 was made to bring you closer to everything you love</p>
+          <div id='microsoft' className='left md:tw-text-white tw-text-black tw-flex tw-flex-col  tw-items-center md:tw-items-baseline tw-my-7 tw-p-10 tw-shadow-lg md:tw-shadow-none xsm:tw-w-[300px] xxsm:tw-w-[200px] tw-mx-5 lg:tw-w-5/12'>
+            <h1 className='tw-text-3xl tw-font-bold  '>Designed for life today – and tomorrow</h1>
+            <p className=' my-2 '>The next-generation of games. Your goals. Friends and family. Windows 11 was made to bring you closer to everything you love</p>
             <div className='my-3'>
-              <button className="btn btn-primary ">Lern more</button>
+              <button className="btn btn-primary ">See if your PC is ready</button>
             </div>
           </div>
           <div className="right">
             <img className='md:tw-w-[1000px] md:tw-h-[600px] xsm:tw-w-[1000px] lg:tw-w-[1600px] '
               src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP5-1596x600" alt="" />
+          </div>
+        </div>
+
+        <div className="social-media-icon tw-flex tw-justify-center ">
+          <div>Follow Microsoft</div>
+
+          <div className="icon tw-ms-7 tw-flex tw-space-x-2 tw-h-9 ">
+            <FaYoutube />
+            <FaFacebookF />
+            <FaInstagram />
           </div>
         </div>
 
