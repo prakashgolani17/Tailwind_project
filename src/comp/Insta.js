@@ -14,7 +14,7 @@ export default function Insta() {
                     </div>
 
 
-                    <div className="right flex flex-col bg-white px-10 border-2 drop-shadow-sm	 w-96 py-3 pb-4 mt-4 ">
+                    <div className="right flex flex-col bg-white px-10 border-2 drop-shadow-sm	 w-96 py-3 pb-4 mt-4  rounded-sm">
                         <div>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png"
 
@@ -26,7 +26,7 @@ export default function Insta() {
                             type="text"
                             placeholder='Phone number,username, or email' />
                         <input className='border-solid border-2 border-gray-200 p-2 my-2 bg-gray-100 outline-blue-400 rounded-md'
-                            type="text "
+                            type="text"
                             placeholder='Password' />
                         <button className="btn btn-primary my-2 font-bold text-md rounded-md"
                         >Log In
@@ -43,7 +43,7 @@ export default function Insta() {
             <span className='text-sm '> <span>create a page</span> a brand or business</span>
         </div> */}
                     </div>
-                    <div className='text-sm mt-3 drop-shadow-sm border-2 py-6 px-14 border-gray-300  w-96 justify-center '>
+                    <div className='text-sm mt-3 drop-shadow-sm border-2 py-6 px-14 border-gray-300  w-96 justify-center rounded-sm '>
                         <span className='ml-8'>
                             Don't have an account?
                             <span className='font-bold text-blue-700 hover:text-blue-500 cursor-pointer'
@@ -52,7 +52,7 @@ export default function Insta() {
                         </span>
                     </div>
 
-                    <div className='my-3 font-semibold'>
+                    <div className='my-3 font-semibold '>
                         Get the App
                     </div>
 

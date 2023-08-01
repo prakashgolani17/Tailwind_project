@@ -3,6 +3,7 @@
 import Fb from './comp/Fb';
 import Font from './comp/Font';
 import Insta from './comp/Insta';
+import MicroSoftSite from './comp/MicroSoftSite';
 import { Tail } from './comp/Tail';
 import Wraping from './comp/Wraping';
 // import { LandingPage } from './comp/LandingPage';
@@ -12,7 +13,8 @@ function App() {
     <div>
       {/* <Tail /> */}
       {/* <Fb /> */}
-      <Insta />
+      {/* <Insta /> */}
+      <MicroSoftSite />
       {/* <Wraping /> */}
       {/* <Font /> */}
 

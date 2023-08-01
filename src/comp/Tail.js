@@ -32,7 +32,7 @@ export const Tail = () => {
                     />
                 </div>
             </main>
-            <div class="relative flex  items-center">
+            <div class="relative flex  items-center ">
                 <div class="flex-grow border-t border-gray-400"></div>
                 {/* <span class="flex-shrink mx-4 text-gray-400"></span> */}
                 <div class="flex-grow border-t border-gray-400"></div>
