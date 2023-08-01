@@ -10,7 +10,7 @@ function MicroSoft() {
       <div className='tw-mx-auto '>
 
         {/* navbar */}
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary tw-sticky tw-top-0 ">
           <div className="container-fluid">
             <img className='tw-w-28' src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" alt="" />
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -130,28 +130,7 @@ function MicroSoft() {
             </div>
 
           </div>
-
-
-
-          {/* <div className="list-item02 md:tw-flex md:tw-justify-evenly md:tw-mx-12">
-            <div className="list tw-w-96 ">
-              <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Bing-AI-Open-Preview?wid=380&hei=213&fit=crop" alt="" />
-              <h2> Announcing the next wave of AI innovation</h2>
-              <p>The new Microsoft Bing and Edge will soon feature more visual search responses, chat history, and persistent chat within Edge. We’re also adding actions to help people complete tasks.</p>
-            </div>
-
-            <div className="list  tw-w-96">
-              <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XGP-Game-Pass-Ultimate-Characters-06102010-1?wid=380&hei=213&fit=crop" alt="" />
-              <h2>  Xbox Game Pass Ultimate</h2>
-              <p>Xbox Live Gold and hundreds of high-quality console and PC games. Play together with friends and discover your next favourite game..</p>
-            </div>
-
-          </div> */}
-
         </div>
-
-
-
 
         {/* last component img with content */}
         <div className='slider tw-flex tw-flex-col-reverse md:tw-bg-[#3b3b3b] md:tw-flex-row tw-justify-between tw-items-center tw-mx-2 xsm:tw-my-12'>
@@ -178,6 +157,116 @@ function MicroSoft() {
             <FaInstagram />
           </div>
         </div>
+
+
+        <div className='tw-bg-[#f2f2f2] '>
+          <div className="footer tw-flex tw-flex-col tw-px-20 tw-space-y-5  md:tw-flex md:tw-flex-row md:tw-justify-around tw-py-7  ">
+            <div className="whats-new tw-flex tw-flex-col tw-my-6 ">  <span className='tw-font-bold'>What's New</span>
+
+              <ul className='tw-text-xs tw-space-y-4 tw-my-4 '>
+                <li className='hover:tw-underline'>
+                  <a href="">microsoft</a>
+                </li>
+                <li className='hover:tw-underline'>
+                  <a href="">Games</a>
+                </li>
+                <li className='hover:tw-underline'>
+                  <a href="">Surface 9</a>
+                </li>
+                <li className='hover:tw-underline'>
+                  <a href="">Surface Leptop 5</a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="whats-new"> <span className='tw-font-bold '> Microsoft Store</span>
+              <ul className='tw-text-xs tw-space-y-4 tw-my-4 '>
+                <li className='hover:tw-underline'>
+                  <a href="">Account profile</a>
+                </li>
+                <li className='hover:tw-underline'>
+                  <a href="">Download Center</a>
+                </li>
+
+                <li className='hover:tw-underline'>
+                  <a href="">Returns</a>
+                </li>
+                <li className='hover:tw-underline'>
+                  <a href="">Order tracking</a>
+                </li>
+              </ul>
+            </div>
+
+
+            <div className="whats-new"> <span className='tw-font-bold'>Education</span>
+              <ul className='tw-text-xs tw-space-y-4 tw-my-4 '>
+                <li className='hover:tw-underline'>
+                  <a href="">Microsoft in education</a>
+                </li>
+                <li className='hover:tw-underline'>
+                  <a href="">Microsoft Teams for Education</a>
+                </li>
+                <li className='hover:tw-underline'>
+                  <a href="">Office Education</a>
+                </li>
+                <li className='hover:tw-underline'>
+                  <a href="">Azure for students</a>
+                </li>
+                <li className='hover:tw-underline'>
+                  <a href="">Educator training and development</a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="whats-new"> <span className='tw-font-bold'>Developer & IT</span>
+
+              <ul className='tw-text-xs tw-space-y-4 tw-my-4 '>
+                <li className='hover:tw-underline'>
+                  <a href="">Developer Center</a>
+                </li>
+                <li className='hover:tw-underline'>
+                  <a href="">Documentation</a>
+                </li>
+                <li>
+                  <a href="">Microsoft Learn</a>
+                </li>
+                <li className='hover:tw-underline'>
+                  <a href="">AppSource</a>
+                </li>
+                <li className='hover:tw-underline'>
+                  <a href="">Theta Sole</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div className="whats-new tw-my-6 tw-bg-[#f2f2f2]  ">
+
+            <ul className='tw-text-xs tw-flex-col tw-space-y-5 md:tw-justify-end tw-space-x-10 tw-mx-10 tw-pb-7 md:tw-flex md:tw-flex-row'>
+              <li className='tw-mx-10 md:tw-my-5 md:tw-mx-4'>
+                <a href="">Contact Microsoft</a>
+              </li>
+              <li >
+                <a href=""> Privacy</a>
+              </li>
+              <li>
+                <a href="">Terms of use</a>
+              </li>
+              <li >
+                <a href=""> Trademarks</a>
+              </li>
+              <li >
+                <a href=""> About our ads</a>
+              </li>
+              <li >
+                <a href=""> Microsoft 2023</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
 
 
       </div>
